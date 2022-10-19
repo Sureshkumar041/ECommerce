@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ECommerce</title>
+    <link rel="stylesheet" href="/css/dashboard.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="bodydiv">
+        <div class="user">
+            <div class="person">
+                <p id="name"></p>                
+            </div>
+        </div>
+        <div class="navi">
+            <div class="nav">
+                <li class=""><a href="">User details</a></li>
+            </div>
+            <div class="nav">
+                <li><a href="">Notifications</a></li>
+            </div>
+        </div>
+        <div class="save">
+            <form action="#" class="form-group" onsubmit="onSave()">
+                <div class="data">
+                    <!-- <label for="email">Email</label> -->
+                    <input type="text" class="form-control" placeholder="email" id="email">
+                </div>
+                <div class="data">
+                    <!-- <label for="email">User name</label> -->
+                    <input type="text" class="form-control" placeholder="username" id="username">
+                </div>
+                <div class="data">
+                    <!-- <label for="email">Passwor</label> -->
+                    <input type="text" class="form-control" placeholder="password" id="password">
+                </div>
+                <div class="data">
+                    <!-- <label for="email">Terms</label> -->
+                    <input type="text" class="form-control" placeholder="terms" id="terms">
+                </div>
+                <div class="data">
+                    <input type="submit" class="btn btn-success" id="btn" value="Update">
+                </div>
+            </form>
+        <div class="tablehead">
+            <table class="table-bordered" id="table">
+                <thead id="thead">
+                    <tr>
+                        <th>Email</th>
+                        <th>User Name</th>
+                        <th>Password</th>
+                        <th>Status</th>
+                        <th>Count</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody id="tbody"></tbody>
+            </table>
+        </div>
+    </div>
+    <script src="/js/dashboard.js"></script>
+    <!-- <script src="/js/login.js"></script> -->
+</body>
+
+</html>

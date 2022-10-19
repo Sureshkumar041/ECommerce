@@ -1,0 +1,56 @@
+body{
+    background-image: linear-gradient(to left,lightgreen,aqua);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    width: 33%;
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px 10px grey;
+}  
+.header{
+    text-align: center;
+}
+.form-group{
+    margin: 25px 0px;
+}
+.btn ,btn-primary{
+    width: 40%;
+    border-radius: 5px;
+    color: black;
+    background-image: linear-gradient(to left,lightgreen,aqua);
+    width: 100%;
+    border: none;
+    outline: none;
+}
+u{
+    color: blue;
+}
+.form-group p{
+    visibility: hidden;
+    position: absolute;
+}
+.p{
+    visibility: visible;
+    color: red;
+}
+.form-group.success p{
+    visibility: visible;
+}
+hr{
+    border-top: 1px solid black;
+}
+.c1{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+.c2{
+    display: flex;
+    justify-content: center;
+    
+}
